@@ -1,3 +1,8 @@
+providers = ["node"]
+
+[variables]
+NIXPACKS_NODE_DIR = "server"
+
 [phases.install]
 cmds = ["cd server && npm install"]
 
